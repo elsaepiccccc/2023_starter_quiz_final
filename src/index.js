@@ -25,7 +25,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}>
           <Route path="Quiz" element={<Quiz q_prop={"Hello"} />} />
-          <Route path="Score" element={<Score s_prop={ header_data} />} />
+          <Route path="Score" element={<Score s_prop={"Score"} />} />
           <Route path="Contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route>
