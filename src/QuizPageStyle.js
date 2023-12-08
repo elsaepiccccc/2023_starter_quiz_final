@@ -3,7 +3,7 @@
 //
 const quizPageStyle = {
     color: "white",
-    backgroundColor: "pink",
+    backgroundColor: "DeepPink",
     padding: "10px",
     fontFamily: "Sans-Serif"
   };
