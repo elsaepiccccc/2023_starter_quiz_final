@@ -1,18 +1,23 @@
 import React from 'react';
 import { Link, Outlet } from "react-router-dom";
 
-
-
 class Home extends React.Component {
 
     render() {
+        // Inline CSS for text shadow
+        const headerStyle = {
+            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' // Shadow effect
+        };
+
         return(
             <>
-                <h1>This is the HOME stubb</h1>
+                <h1 style={headerStyle}>HOME PAGE</h1>
                 <Link to="/Quiz">Quiz</Link> {  }
                 <Link to="/Score">Score</Link> {  }
-                <Link to="/Contact">Contact us</Link> { }
-                <Link to="/TabExample">Tab example</Link>
+                <Link to="/Contact">Feedback</Link> { }
+		        <Link to="/TabExample">Hints</Link> { }
+		
+                
                 <Outlet />
             </>
         );
