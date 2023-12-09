@@ -18,13 +18,19 @@ class MyComponent extends React.Component {
       return (
         <div>
           <label>
-            <input type="radio" name="radio" value="1" onChange={this.onChange}/> First button 
+            <input type="radio" name="radio" value="1 star" onChange={this.onChange}/> 1 Star 
           </label> <br />
           <label>
-            <input type="radio" name="radio" value="2" onChange={this.onChange} /> Second button
+            <input type="radio" name="radio" value="2 stars" onChange={this.onChange} /> 2 Stars
            </label> <br />
            <label>
-            <input type="radio" name="radio" value="3" onChange={this.onChange} /> Third button 
+            <input type="radio" name="radio" value="3 stars" onChange={this.onChange} /> 3 Stars 
+          </label> <br />
+          <label>
+            <input type="radio" name="radio" value="4 stars" onChange={this.onChange}/> 4 Stars 
+          </label> <br />
+          <label>
+            <input type="radio" name="radio" value="5 stars" onChange={this.onChange}/> 5 Stars 
           </label> <br />
           <p>The selected value is: {this.state.radio_value}</p>
         </div>
