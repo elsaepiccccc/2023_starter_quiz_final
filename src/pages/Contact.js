@@ -7,7 +7,7 @@ import MyComponent from './MyComponent';
 class Contact extends React.Component {
 
     greeting(name) {
-        alert("Greeting " + name);
+        alert("Thank you for rating this app " + name);
     };
 
     hello(name) {
@@ -20,8 +20,8 @@ class Contact extends React.Component {
             <div>
                 <br />
                 <div>
-                    <h1  className="text-3xl font-bold underline">Greetings!</h1>
-                    <button onClick={() => this.greeting('CSE 2102 Class')}>Say hello</button>
+                    <h1  className="text-3xl font-bold underline">Rate this quiz app!</h1>
+                    <button onClick={() => this.greeting('!')}>rate</button>
                     <br />
                 </div>
             </div>
